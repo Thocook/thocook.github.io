@@ -1,12 +1,12 @@
-# Portfolio Project Context — Trellis Forecast Adaptive Pricing Engine (FAPE)
+# Forecast-adaptive pricing — Trellis
 
 ## Project Name
-**Trellis — Forecast Adaptive Pricing Engine (FAPE)**  
+**Forecast-adaptive pricing**  
 **Organization:** Trellis  
-**Role:** Product Owner / Product Manager, Dynamic Pricing  
+**Role:** Product Owner, Dynamic Pricing  
 **Period:** May 2025 – Present  
-**Location:** Ottawa, Ontario, Canada  
-**Project Type:** Pricing algorithm, Amazon marketplace optimization, forecasting, product management, e-commerce analytics, demand shaping, revenue operations
+**Location:** Ottawa, ON  
+**Project Type:** Pricing product, forecasting, marketplace operations
 
 ## Portfolio Positioning
 This project should be presented as a product + data science + pricing strategy project, not simply as an algorithm. It combined econometric thinking, marketplace signals, product ownership, client management, pricing automation, and operational performance measurement.

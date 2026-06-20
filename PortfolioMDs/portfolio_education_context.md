@@ -1,10 +1,8 @@
-# Portfolio Context — Education & Economics Coursework
+# Education — Economics & applied tools
 
 ## Education Positioning
 
-I have a Bachelor of Commerce background with a specialization in Economics, Econometrics, and programming. My academic foundation combines applied economics, data analysis, quantitative modelling, finance, strategy, and market structure. This education is relevant to my portfolio because it supports the way I work across data science, pricing, product analytics, forecasting, business intelligence, and decision systems.
-
-My coursework should be framed less as generic economics and more as a quantitative business toolkit: using data, models, incentives, markets, and statistical reasoning to solve real business problems.
+Bachelor of Commerce (Economics) with hands-on quantitative training in econometrics, forecasting, optimization, and data analysis. Present education as a practical toolkit that supports pricing, forecasting, BI, and product analytics rather than as abstract theory.
 
 ## Core Academic Themes to Highlight
 

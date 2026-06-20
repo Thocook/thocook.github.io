@@ -1,11 +1,11 @@
-# Portfolio Project Context — Senate of Canada EIMS / Digital Workspace
+# Operations reporting — Senate of Canada
 
 ## Project Name
-**Executive Information Management System (EIMS) / Digital Workspace**  
+**Operations reporting & automation**  
 **Organization:** Senate of Canada — Property & Services Directorate  
-**Project Type:** Internal operations platform, Microsoft 365 workspace, workflow automation, dashboarding, data pipelines  
+**Project Type:** Internal operations platform, M365 automation, reporting  
 **Period:** Apr 2023 – Sep 2024  
-**Roles:** Automation Developer Intern; Automation Project Lead Intern
+**Roles:** Automation Developer; Project Lead (intern)
 
 ## Portfolio Positioning
 This project should be presented as an internal data product and workflow automation platform built inside the Microsoft 365 ecosystem. It was not only a dashboard project. It combined SharePoint, Teams, Planner, Outlook, Power Automate, Microsoft Lists, Excel/Access, and Power BI into a centralized operational workspace for task intake, employee workflow visibility, manager reporting, and quarterly performance reporting.

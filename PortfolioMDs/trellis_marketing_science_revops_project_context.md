@@ -1,10 +1,10 @@
-# Portfolio Project Context — Trellis Marketing Science & Revenue Pipeline System
+# Marketing science & RevOps — Trellis
 
 ## Project Name
-**Trellis — Marketing Science & Revenue Pipeline System**  
+**Marketing science & RevOps**  
 **Organization:** Trellis  
-**Role / Context:** Marketing science, revenue operations, analytics, and pipeline support  
-**Project Type:** B2B SaaS marketing analytics, GA4 analysis, HubSpot pipeline, landing page analytics, paid media reporting, outbound sales enablement
+**Role / Context:** Marketing science, RevOps, analytics  
+**Project Type:** Funnel analytics, attribution, CRM reporting
 
 ## Portfolio Positioning
 

@@ -1,12 +1,12 @@
-# Portfolio Project Context — La Cité Gatineau Sales Operations System
+# La Cité — Leasing pipeline
 
 ## Project Name
-**La Cité Gatineau — Sales Operations Pipeline & CRM Automation**  
+**La Cité — Leasing pipeline**  
 **Organization:** La Cité Gatineau  
-**Role:** Sales Operations Specialist — Contract Full-Time  
-**Period:** Jul 2024 – Feb 2025 · 8 months  
-**Location:** Ottawa / Gatineau · Remote  
-**Project Type:** Sales operations, CRM implementation, marketing analytics, lead automation, dashboarding, real estate leasing operations
+**Role:** Sales Operations Specialist (contract)  
+**Period:** Jul 2024 – Feb 2025  
+**Location:** Ottawa / Gatineau (remote)  
+**Project Type:** CRM automation, lead operations, booking workflows, reporting
 
 ## Portfolio Positioning
 This project should be presented as a full sales operations system for a major real estate leasing launch, not just a CRM setup. The work connected marketing channels, website forms, inbound emails, booking flows, Pipedrive CRM, Zapier automations, Calendly, and Power BI reporting into one operational pipeline for residential leasing and commercial interest.

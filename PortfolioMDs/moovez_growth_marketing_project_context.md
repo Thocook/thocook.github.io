@@ -1,12 +1,12 @@
-# Portfolio Project Context — Moovez Growth Marketing Internship
+# Growth campaigns — Moovez
 
 ## Project Name
-**Moovez — Growth Marketing & Campaign Operations**  
+**Growth campaigns**  
 **Organization:** Moovez  
-**Roles:** Digital Marketing Specialist; Sales and Marketing Specialist  
+**Roles:** Digital Marketing Specialist; Sales & Marketing Specialist  
 **Period:** Oct 2020 – Apr 2023  
-**Context:** School-era internship / early-career growth marketing role  
-**Project Type:** Digital marketing, campaign operations, email marketing, organic social, paid media, SEO, growth analytics
+**Context:** Early-career internship  
+**Project Type:** Email, paid media, SEO, campaign analytics
 
 ## Portfolio Positioning
 This project should be presented as an early-career growth marketing and campaign operations project completed while in school. It should not be framed as a senior marketing leadership project. The strongest angle is that it shows early hands-on experience with digital acquisition, paid media, outbound email, organic content, SEO, and analytics.

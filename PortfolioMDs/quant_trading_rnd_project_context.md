@@ -1,11 +1,11 @@
-# Portfolio Project Context — Quantitative Trading Programming R&D
+# Trading R&D
 
 ## Project Name
-**Quantitative Trading Programming — Algorithmic Trading Strategy R&D**  
-**Organization / Context:** R&D project while interning with a private equity investor / Baywood Capital Management  
-**Role:** Quantitative Trading Research & Development Intern  
+**Trading R&D**  
+**Organization / Context:** Private equity R&D  
+**Role:** Quantitative research intern  
 **Date / Period:** 2024  
-**Project Type:** Algorithmic trading, Pine Script development, TradingView strategy research, technical indicator testing, backtesting, quantitative finance, risk-adjusted performance analysis
+**Project Type:** Strategy research, Pine Script, backtesting
 
 ## Portfolio Positioning
 This project should be presented as an applied quantitative finance and research project. It was not simply a trading experiment. It combined strategy design, coding, backtesting, technical signal engineering, and risk-adjusted performance evaluation.

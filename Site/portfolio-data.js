@@ -477,7 +477,7 @@
         title: "Coursera / IBM Professional Certificates",
         summary: "Applied technical training across data science, full-stack software development, data engineering, AI application development, and RevOps workflows.",
         abilities: "Python workflows, SQL, databases, ETL pipelines, dashboards, machine learning, React, Flask, Docker, cloud-native development, prompt engineering, and AI product workflows.",
-        logo: "../Tools/Coursera.png",
+        logo: "../../Tools/Coursera.png",
         cards: [
           {
             title: "IBM Data Engineering",

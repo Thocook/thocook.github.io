@@ -409,7 +409,7 @@ let state = {
                   <li>Translated pricing logic into client-facing product decisions.</li>
                 </ul>
               </section>
-              <a class="case-file-link fape-download-link fape-overview-download" href="../Trellis%20%20Forecast%20Adaptive%20pricing%20Engine%20(10)%20(1).pdf" target="_blank" rel="noreferrer">Download case study</a>
+              <a class="case-file-link fape-download-link fape-overview-download" href="../../Trellis%20%20Forecast%20Adaptive%20pricing%20Engine%20(10)%20(1).pdf" target="_blank" rel="noreferrer">Download case study</a>
             </div>
           </div>
         `;
@@ -558,43 +558,43 @@ let state = {
     }
 
     const toolIconMap = {
-      "Access": "../Tools/excel.png",
-      "Amazon Ads": "../Tools/AmazonAds.png",
-      "Amazon Data": "../Tools/Amazon.png",
-      "Bing Ads": "../Tools/Bingads.png",
-      "Calendly": "../Tools/zapier.png",
-      "ChatGPT": "../Tools/ChatGpt.png",
-      "Claude": "../Tools/Claude.png",
-      "Excel": "../Tools/excel.png",
-      "Facebook Ads": "../Tools/Meta.png",
-      "Forms": "../Tools/sharepoint.png",
-      "GA4": "../Tools/Ga4.png",
-      "Google Ads": "../Tools/adwords.png",
-      "HubSpot": "../Tools/hubspot.png",
-      "Klaviyo": "../Tools/klaviyo-logo.png",
-      "LinkedIn Ads": "../Tools/LinkedIn_icon.svg.png",
-      "Looker": "../Tools/Looker.png",
-      "Meta": "../Tools/Meta.png",
-      "Outlook": "../Tools/sharepoint.png",
-      "Pine Script": "../Tools/Pinescript.png",
-      "Pipedrive": "../Tools/pipedrive.png",
-      "Planner": "../Tools/planner.png",
-      "Postgres": "../Tools/postgres.png",
-      "Power Automate": "../Tools/PowerAutomate.png",
-      "Power BI": "../Tools/PowerBi.png",
-      "Python": "../Tools/python.png",
-      "SEMrush": "../Tools/semrush-icon.webp",
-      "SharePoint": "../Tools/sharepoint.png",
-      "Tableau": "../Tools/free-tableau-icon-svg-download-png-4489897.png",
-      "Teams": "../Tools/sharepoint.png",
-      "TradingView": "../Tools/Pinescript.png",
-      "Webflow": "../Tools/webflow.svg",
-      "WordPress": "../Tools/wordpress.png",
-      "Zapier": "../Tools/zapier.png"
+      "Access": "../../Tools/excel.png",
+      "Amazon Ads": "../../Tools/AmazonAds.png",
+      "Amazon Data": "../../Tools/Amazon.png",
+      "Bing Ads": "../../Tools/Bingads.png",
+      "Calendly": "../../Tools/zapier.png",
+      "ChatGPT": "../../Tools/ChatGpt.png",
+      "Claude": "../../Tools/Claude.png",
+      "Excel": "../../Tools/excel.png",
+      "Facebook Ads": "../../Tools/Meta.png",
+      "Forms": "../../Tools/sharepoint.png",
+      "GA4": "../../Tools/Ga4.png",
+      "Google Ads": "../../Tools/adwords.png",
+      "HubSpot": "../../Tools/hubspot.png",
+      "Klaviyo": "../../Tools/klaviyo-logo.png",
+      "LinkedIn Ads": "../../Tools/LinkedIn_icon.svg.png",
+      "Looker": "../../Tools/Looker.png",
+      "Meta": "../../Tools/Meta.png",
+      "Outlook": "../../Tools/sharepoint.png",
+      "Pine Script": "../../Tools/Pinescript.png",
+      "Pipedrive": "../../Tools/pipedrive.png",
+      "Planner": "../../Tools/planner.png",
+      "Postgres": "../../Tools/postgres.png",
+      "Power Automate": "../../Tools/PowerAutomate.png",
+      "Power BI": "../../Tools/PowerBi.png",
+      "Python": "../../Tools/python.png",
+      "SEMrush": "../../Tools/semrush-icon.webp",
+      "SharePoint": "../../Tools/sharepoint.png",
+      "Tableau": "../../Tools/free-tableau-icon-svg-download-png-4489897.png",
+      "Teams": "../../Tools/sharepoint.png",
+      "TradingView": "../../Tools/Pinescript.png",
+      "Webflow": "../../Tools/webflow.svg",
+      "WordPress": "../../Tools/wordpress.png",
+      "Zapier": "../../Tools/zapier.png"
     };
 
     function techChipHtml(label) {
-      const icon = toolIconMap[label] || "../Tools/github.png";
+      const icon = toolIconMap[label] || "../../Tools/github.png";
       return `
         <span class="tool-chip project-tech-chip">
           <span class="tool-icon"><img src="${icon}" alt="" /></span>${label}

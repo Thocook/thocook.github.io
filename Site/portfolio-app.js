@@ -1428,11 +1428,12 @@ let state = {
       });
 
       panel.classList.toggle("cert-panel", tabId === "certifications");
+      panel.classList.toggle("university-panel", tabId === "university");
       document.getElementById("education-kicker").textContent = data.kicker;
       document.getElementById("education-title").textContent = data.title;
       document.getElementById("education-summary").textContent = data.summary;
       document.getElementById("education-abilities").textContent = data.abilities;
-      logo.innerHTML = data.logo ? `<img src="${data.logo}" alt="Coursera logo" />` : "";
+      logo.innerHTML = data.logo ? `<img src="${data.logo}" alt="${data.logoAlt || "Education logo"}" />` : "";
 
       if (tabId === "certifications") {
         document.querySelector(".education-top").classList.add("cert-merged-top");

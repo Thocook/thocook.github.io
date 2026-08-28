@@ -3072,7 +3072,12 @@
       object-fit: contain;
     }
 
-    .cert-panel .cert-logo-strip { display: inline-flex; }
+    .cert-panel .cert-logo-strip,
+    .university-panel .cert-logo-strip { display: inline-flex; }
+
+    .university-panel .cert-logo-strip {
+      margin: 0 0 14px;
+    }
 
     .course-grid {
       display: grid;

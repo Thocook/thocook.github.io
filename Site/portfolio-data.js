@@ -449,6 +449,8 @@
         title: "Bachelor of Commerce - Economics, Econometrics & Programming",
         summary: "A quantitative business foundation for pricing systems, forecasting, automation, analytics products, and AI-enabled decision workflows.",
         abilities: "Regression, time series, panel data, statistical modelling, pricing strategy, forecasting, optimization, and decision-making under uncertainty.",
+        logo: "../../JMSB.png",
+        logoAlt: "John Molson School of Business logo",
         cards: [
           {
             title: "Econometrics & Forecasting",
@@ -478,6 +480,7 @@
         summary: "Applied technical training across data science, full-stack software development, data engineering, AI application development, and RevOps workflows.",
         abilities: "Python workflows, SQL, databases, ETL pipelines, dashboards, machine learning, React, Flask, Docker, cloud-native development, prompt engineering, and AI product workflows.",
         logo: "../../Tools/Coursera.png",
+        logoAlt: "Coursera logo",
         cards: [
           {
             title: "IBM Data Engineering",

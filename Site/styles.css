@@ -4485,8 +4485,8 @@
     }
 
     .overview-project-card {
-      display: grid;
-      align-content: start;
+      display: flex;
+      flex-direction: column;
       gap: 22px;
       flex: 0 0 var(--overview-card-width);
       min-height: 430px;
@@ -4715,6 +4715,7 @@
     }
 
     .overview-project-card > .overview-section-link:hover {
+      transform: none;
       background:
         linear-gradient(rgba(7,29,43,.55), rgba(7,29,43,.55)),
         url("../headers/HeaderBG.svg") center / cover;

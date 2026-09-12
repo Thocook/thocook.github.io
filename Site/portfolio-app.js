@@ -394,7 +394,7 @@ let state = {
                   </div>
                   <span>${project.company} - ${project.year}</span>
                 </div>
-                <p>Built pricing logic for a major Amazon operator where forecasts, SKU performance, inventory risk, and margin pressure had to move together. The problem was not just changing prices faster; it was making catalog decisions predictable enough for operators to trust. The solution used forecast variance, product performance, and controlled price actions to identify where pricing should protect margin, recover demand, or stay stable.</p>
+                <p>Built pricing logic for a major Amazon operator where forecasts, SKU performance, inventory risk, and margin pressure had to move together. The business question was where to adjust prices to keep the catalog on plan, with logic operators could understand and trust. The solution used forecast variance, product performance, and controlled price actions to identify where pricing should protect margin, recover demand, or stay stable.</p>
                 <div class="project-tech-row" aria-label="Technology and concepts used">
                   ${["Amazon Data", "Python", "Postgres", "Django"].map(techChipHtml).join("")}
                 </div>
@@ -406,7 +406,7 @@ let state = {
                 <ul class="project-intro-notes">
                   <li>Used pricing as a control layer to hit inventory needs.</li>
                   <li>Kept changes within budget tolerance across the catalog.</li>
-                  <li>Translated pricing logic into client-facing product decisions.</li>
+                  <li>Translated pricing logic and business needs into clear product decisions for clients.</li>
                 </ul>
               </section>
               <a class="case-file-link fape-download-link fape-overview-download" href="../../Trellis%20%20Forecast%20Adaptive%20pricing%20Engine%20(10)%20(1).pdf" target="_blank" rel="noreferrer">Download case study</a>
@@ -680,7 +680,7 @@ let state = {
             <div class="senate-title-row">
               <div>
                 <p class="showcase-kicker">${project.company} - ${project.year}</p>
-                <h2>Power BI & Automation</h2>
+                <h2>Operations BI & Automation</h2>
               </div>
               <span>Executive information management system</span>
             </div>
@@ -689,7 +689,7 @@ let state = {
                 kicker: "Overview",
                 title: "From scattered operations to structured reporting.",
                 meta: `${project.company} - ${project.year}`,
-                body: "Built and helped scale a Microsoft 365 operations platform for a public-sector office where daily work was spread across inboxes, forms, Planner tasks, and manual reporting files. The goal was to reduce invisible work and make operational status easier for managers to review. The solution converted scattered activity into SharePoint / Teams workflows, Power Automate routing, and Power BI dashboards for workload visibility and quarterly reporting.",
+                body: "Built and helped scale a Microsoft 365 operations platform for a public-sector office where daily work was spread across inboxes, forms, Planner tasks, and manual reporting files. Managers needed to see what was happening, who owned it, and where work was getting stuck. Workflow mapping and stakeholder-facing implementation connected that need to SharePoint / Teams records, Power Automate routing, and Power BI dashboards for workload and quarterly reporting.",
                 tech: ["Power BI", "Power Automate", "SharePoint", "Planner"],
                 metrics: [
                   ["65%", "Email volume reduction"],
@@ -699,7 +699,7 @@ let state = {
                 notes: [
                   "Turned inbox activity, forms, and Planner tasks into structured operational records.",
                   "Used automation to reduce manual handoffs and make ownership easier to track.",
-                  "Connected the workspace to Power BI so managers could review workload and reporting status."
+                  "Connected the workspace to Power BI so managers could review workload KPIs and quarterly reporting status."
                 ],
                 projectId: project.id
               })}
@@ -829,7 +829,7 @@ let state = {
                 kicker: "Overview",
                 title: "Every inquiry captured, followed up, and measured.",
                 meta: `${project.company} - ${project.year}`,
-                body: "Built a sales operations system for a real estate leasing launch where leads were arriving from ads, website forms, inboxes, bookings, calls, and referrals without a reliable single follow-up path. The business problem was missed speed-to-lead and limited visibility into which channels were producing real leasing activity. The solution connected Pipedrive, Zapier, booking workflows, website activity, and reporting dashboards so every inquiry could be captured, assigned, followed up, and measured.",
+                body: "Built a sales operations system for a real estate leasing launch where leads were arriving from ads, website forms, inboxes, bookings, calls, and referrals without a reliable single follow-up path. Demand was there, but slow follow-up and scattered records made it hard to see which channels were turning inquiries into showings. The solution connected Pipedrive, Zapier, booking workflows, website activity, and reporting dashboards so every inquiry could be captured, assigned, followed up, and measured.",
                 tech: ["Zapier", "Pipedrive", "Tableau", "GA4"],
                 metrics: [
                   ["100+ -> 0", "Monthly unanswered leads"],
@@ -838,8 +838,8 @@ let state = {
                 ],
                 notes: [
                   "Captured inquiries from forms, inboxes, bookings, ads, calls, and referrals in one pipeline.",
-                  "Used Zapier and Pipedrive to create follow-up structure instead of manual lead chasing.",
-                  "Connected source activity to reporting so leasing performance could be managed end to end."
+                  "Used Zapier and Pipedrive to standardize lead routing and follow-up instead of manual lead chasing.",
+                  "Connected lead sources to funnel reporting so the team could review leasing performance from inquiry to showing."
                 ],
                 projectId: project.id
               })}
@@ -945,7 +945,7 @@ let state = {
                 notes: [
                   "Converted a discretionary market idea into explicit entry, exit, and risk rules.",
                   "Used Pine Script to make the strategy repeatable and backtestable.",
-                  "Reviewed performance with risk-adjusted metrics instead of headline return alone."
+                  "Evaluated the hypothesis with risk-adjusted metrics and clear limits on what simulated results could show."
                 ],
                 projectId: project.id
               })}
@@ -1084,9 +1084,9 @@ let state = {
             </div>
             ${projectPageIntroHtml({
                 kicker: "Overview",
-                title: "Early campaign operations across email, social, paid, and SEO.",
+                title: "Campaign execution with a feedback loop.",
                 meta: `${project.company} - ${project.year}`,
-                body: "Supported Moovez growth marketing while in school, helping create the operating rhythm for early acquisition work across email, social, search, SEO, and campaign analytics. The challenge was learning which channels could create useful engagement without a mature marketing stack or large team. The solution combined newsletters, outbound email, organic content, Meta campaigns, Google Ads, keyword research, ChatGPT-supported caption drafting, content scheduling, and analytics review so campaign work could become more measurable and iterative.",
+                body: "Supported Moovez growth marketing while in school, helping create the operating rhythm for early acquisition work across email, social, search, SEO, and campaign analytics. The challenge was learning which channels could create useful engagement without a mature marketing stack or large team. I combined campaign execution with response and engagement analysis to refine keywords, content, and acquisition priorities. ChatGPT supported caption drafting and content scheduling.",
                 tech: ["Klaviyo", "Meta", "Google Ads", "SEMrush", "ChatGPT", "GA4"],
                 metrics: [
                   ["10.53%", "Email campaign reply rate"],
@@ -1095,8 +1095,8 @@ let state = {
                 ],
                 notes: [
                   "Ran campaign workflows across email, paid social, search, SEO, and content channels.",
-                  "Used ChatGPT to draft captions and prepare content schedules for campaign execution.",
-                  "Used analytics feedback to refine keywords, content direction, and acquisition focus.",
+                  "Supported campaign preparation with content schedules and ChatGPT-assisted caption drafts.",
+                  "Used campaign performance insights to refine keywords, content direction, and acquisition priorities.",
                 ],
                 projectId: project.id
               })}
@@ -1140,15 +1140,15 @@ let state = {
             <div class="growth-title-row">
               <div>
                 <p class="showcase-kicker">${project.company} - ${project.year}</p>
-                <h2>Looker Funnel</h2>
+                <h2>Revenue Funnel Analytics</h2>
               </div>
               <span>Marketing science and RevOps</span>
             </div>
             ${projectPageIntroHtml({
                 kicker: "Overview",
-                title: "From traffic data to outbound pipeline context.",
+                title: "Connecting campaign performance to sales opportunity.",
                 meta: `${project.company} - ${project.year}`,
-                body: "Connected GA4, Looker, landing pages, paid channels, HubSpot forms, and HubSpot pipeline records so marketing and outbound teams could see more than platform-level traffic and spend metrics. The problem was that source data, target clusters, page behavior, form submissions, contacts, and deals lived in separate systems, making it hard to understand which acquisition paths created real opportunities. The solution tied traffic context to CRM records and used Claude to help turn target clusters into landing-page concepts for better campaign and follow-up decisions.",
+                body: "Connected GA4, Looker, landing pages, paid channels, and HubSpot records to answer a shared marketing and sales question: which acquisition paths were creating real opportunities? The problem was that source data, target clusters, page behavior, form submissions, contacts, and deals lived in separate systems, making it hard to understand which acquisition paths created real opportunities. The solution tied traffic context to CRM records and used Claude to help turn target clusters into landing-page concepts for better campaign and follow-up decisions.",
                 tech: ["Looker", "GA4", "HubSpot", "Claude", "Webflow", "Google Ads", "Bing Ads", "LinkedIn Ads", "Amazon Ads"],
                 metrics: [
                   ["GA4", "Source and landing page behavior"],
@@ -1158,7 +1158,7 @@ let state = {
                 notes: [
                   "Connected acquisition sources to sessions, landing pages, forms, contacts, and deals.",
                   "Used Claude to help create landing-page concepts from clusters of target accounts and personas.",
-                  "Used Looker and GA4 to understand traffic quality beyond platform-level ad metrics.",
+                  "Used Looker and GA4 to analyze channel and landing-page performance beyond platform-level ad metrics.",
                 ],
                 projectId: project.id
               })}
@@ -1177,7 +1177,7 @@ let state = {
                 ${lookerArchitectureFlowHtml()}
               `,
               tools: [
-                ["Looker", "Looker supported reporting views that connected campaign and landing-page analysis."],
+                ["Looker", "Looker supported reporting views that connected campaign and landing-page performance to acquisition decisions."],
                 ["GA4", "GA4 captured source, session, engagement, and landing page behavior."],
                 ["Claude", "Claude supported landing-page concepts and copy direction based on clusters of target accounts and personas."],
                 ["HubSpot", "HubSpot connected forms, contacts, lead records, deals, and pipeline context."],

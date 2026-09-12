@@ -1,7 +1,7 @@
 ﻿const themes = [
-      { id: "algorithms", label: "Pricing, AI & Decision Systems" },
-      { id: "business-intelligence", label: "BI, Automation & Internal Tools" },
-      { id: "marketing-science", label: "Growth, CRM & RevOps Systems" }
+      { id: "algorithms", label: "Pricing, Forecasting & Decision Analysis" },
+      { id: "business-intelligence", label: "Business Intelligence & Operations" },
+      { id: "marketing-science", label: "Marketing Analytics & Revenue Operations" }
     ];
 
     const jobs = [
@@ -16,7 +16,7 @@
       {
         id: "trellis-fape",
         title: "Forecast-Adaptive Pricing",
-        shortTitle: "Pricing Automation",
+        shortTitle: "Pricing Analytics",
         company: "Trellis",
         year: "2025",
         themes: ["algorithms"],
@@ -31,7 +31,7 @@
           ["Product Work", ["Requirements", "Decision rules", "Explainability", "Client analysis"]],
           ["Domain", ["Amazon marketplace", "SKU catalogs", "Pricing strategy"]]
         ],
-        role: "Pricing Product Owner work across algorithm logic, product requirements, marketplace analytics, client adoption, and decision-support workflows.",
+        role: "Pricing Product Owner work connecting business requirements, forecast analysis, and pricing rules, with client-facing analysis to explain decisions and support adoption.",
         tags: ["Pricing", "Forecasting", "WMAPE", "Amazon marketplace", "Data product"],
         tabs: {
           overview: {
@@ -45,7 +45,7 @@
             ],
             bullets: [
               "Treated pricing as a control layer for demand, not just a lever for revenue.",
-              "Connected algorithm behaviour to business outcomes like WMAPE, margin, sales-to-plan, and discount efficiency.",
+              "Connected algorithm behaviour to business KPIs like WMAPE, margin, sales-to-plan, and discount efficiency.",
               "Supported client-facing analysis for a $400M+ Amazon operator managing 18,000+ SKUs."
             ]
           },
@@ -87,7 +87,7 @@
       {
         id: "trellis-revops",
         title: "Revenue Funnel",
-        shortTitle: "Looker Automation",
+        shortTitle: "Revenue Funnel Analytics",
         company: "Trellis",
         year: "2025",
         themes: ["marketing-science"],
@@ -100,10 +100,10 @@
           ["Analytics", ["GA4", "Looker", "Landing pages", "Source / medium"]],
           ["CRM", ["HubSpot forms", "HubSpot contacts", "Leads", "Deals"]],
           ["Channels", ["Google Ads", "Bing Ads", "Amazon DSP", "LinkedIn Ads"]],
-          ["AI Workflow", ["Claude", "Target clusters", "Landing page concepts", "Page copy direction"]],
+          ["Content Support", ["Claude", "Target clusters", "Landing page concepts", "Page copy direction"]],
           ["Workflow", ["Form capture", "Pipeline context", "Outbound follow-up"]]
         ],
-        role: "Marketing science and revenue operations work connecting website analytics, paid media, forms, pipeline context, and outbound workflows.",
+        role: "Marketing analytics and revenue operations work connecting website performance, paid media, forms, and CRM data to sales pipeline decisions.",
         tags: ["GA4", "Looker", "HubSpot", "Claude", "Landing pages", "RevOps"],
         tabs: {
           overview: {
@@ -116,7 +116,7 @@
               ["4+", "paid channels: Google Ads, Bing Ads, Amazon DSP, LinkedIn Ads"]
             ],
             bullets: [
-              "Moved reporting beyond traffic volume toward lead creation, pipeline context, and outbound follow-up.",
+              "Moved reporting beyond traffic volume toward lead creation, pipeline visibility, and marketing-to-sales follow-up.",
               "Used Claude to support landing-page concepts based on target account and persona clusters.",
               "Used Looker mainly for GA4 and landing-page analysis while HubSpot served as the CRM operating layer.",
             ]
@@ -159,7 +159,7 @@
       {
         id: "senate-eims",
         title: "Operations Reporting",
-        shortTitle: "M365 Automation",
+        shortTitle: "Operations BI & Automation",
         company: "Senate of Canada",
         year: "2023-2024",
         themes: ["business-intelligence"],
@@ -174,7 +174,7 @@
           ["Data Layer", ["Excel", "Access", "Task records", "Inbox data"]],
           ["Reporting", ["Power BI", "DAX", "Workload KPIs", "Quarterly reporting"]]
         ],
-        role: "Internal operations product work across SharePoint, Outlook, Planner, Power Automate, Excel, Access, Teams, and Power BI.",
+        role: "Business systems and BI work translating operational workflows into structured records, automated handoffs, and Power BI reporting for managers.",
         tags: ["SharePoint", "Power Automate", "Power BI", "Planner", "Internal tools"],
         tabs: {
           overview: {
@@ -189,13 +189,13 @@
             bullets: [
               "Turned scattered operational activity into structured reporting inputs for managers.",
               "Connected Microsoft 365 tools into dashboards for workload, inbox activity, task status, overdue work, and quarterly reporting.",
-              "Supported workflow mapping, automation logic, and stakeholder-facing implementation."
+              "Supported workflow mapping and stakeholder-facing implementation, translating operational needs into automation logic."
             ]
           },
           logic: {
             label: "Logic",
             headline: "The work existed, but the reporting layer was fragmented.",
-            body: "Tasks, handoffs, inbox activity, service requests, and quarterly reporting inputs were spread across Outlook, Planner, Forms, Excel, SharePoint, and informal tracking. The portfolio value is in the conversion of that operational activity into structured management data.",
+            body: "Tasks, handoffs, inbox activity, service requests, and quarterly reporting inputs were spread across Outlook, Planner, Forms, Excel, SharePoint, and informal tracking. The value was turning that operational activity into structured reporting managers could use to review workload and priorities.",
             bullets: [
               "Employees used different tracking methods, making continuity difficult when someone was away.",
               "Managers lacked visibility into workload distribution, overdue tasks, status, and completed work.",
@@ -230,7 +230,7 @@
       {
         id: "la-cite",
         title: "Leasing Pipeline",
-        shortTitle: "Zapier Automation",
+        shortTitle: "CRM & Sales Operations",
         company: "La Cite Gatineau",
         year: "2024-2025",
         themes: ["business-intelligence"],
@@ -245,7 +245,7 @@
           ["Marketing Data", ["Google Analytics", "Meta Ads", "Google Ads", "WordPress"]],
           ["Reporting", ["Power BI", "Lead source", "Bookings", "Response time"]]
         ],
-        role: "Sales operations and CRM automation work for a bilingual real estate leasing pipeline.",
+        role: "Sales operations and business process improvement for a bilingual leasing pipeline, connecting lead capture, CRM follow-up, and funnel reporting.",
         tags: ["Pipedrive", "Zapier", "Calendly", "Power BI", "CRM automation"],
         tabs: {
           overview: {
@@ -316,7 +316,7 @@
           ["Risk Rules", ["0.4% stop loss", "1.8% take profit", "Layered exits"]],
           ["Evaluation", ["Sharpe", "Sortino", "Trade count", "Net profit"]]
         ],
-        role: "Quantitative finance research project using Pine Script, TradingView, technical signals, and backtest evaluation.",
+        role: "Quantitative finance research translating a market hypothesis into Pine Script rules, TradingView backtests, and risk-adjusted performance analysis.",
         tags: ["Pine Script", "TradingView", "Backtesting", "Signal logic", "R&D"],
         tabs: {
           overview: {
@@ -331,7 +331,7 @@
             bullets: [
               "Designed long and short entry logic using stochastic oscillator zones, RSI behavior, and short-term moving-average direction.",
               "Evaluated the strategy on S&P 500 Futures from 2023-06-01 to 2024-04-26 using a simulated $100K account.",
-              "Presented results as research output, with commission and slippage excluded."
+              "Presented research findings with clear limitations, including the exclusion of commission and slippage."
             ]
           },
           logic: {
@@ -372,7 +372,7 @@
       {
         id: "moovez-growth",
         title: "Growth Campaigns",
-        shortTitle: "Campaign Automation",
+        shortTitle: "Campaign Performance",
         company: "Moovez",
         year: "2020-2023",
         themes: ["marketing-science"],
@@ -384,16 +384,16 @@
         tools: [
           ["Channels", ["Email", "Organic social", "Facebook Ads", "Google Ads"]],
           ["Acquisition", ["SEO", "Outbound email", "Newsletters", "Campaign pages"]],
-          ["AI Content", ["ChatGPT", "Caption drafting", "Content schedules", "Copy iteration"]],
+          ["Content Preparation", ["ChatGPT", "Caption drafting", "Content schedules", "Copy iteration"]],
           ["Measurement", ["Reply rate", "Engagement rate", "Channel comparison"]],
           ["Operations", ["Campaign setup", "Audience testing", "Reporting", "Iteration"]]
         ],
-        role: "Early growth marketing operations across email, outbound, organic social, paid media, SEO, and campaign analytics.",
+        role: "Campaign execution and marketing performance analysis across email, outbound, organic social, paid media, and SEO, using response data to guide the next round of work.",
         tags: ["Email", "Facebook Ads", "Google Ads", "ChatGPT", "SEO", "Growth analytics"],
         tabs: {
           overview: {
             label: "Overview",
-            headline: "Early growth work across campaigns, channels, and measurement.",
+            headline: "Campaign performance, from execution to the next decision.",
             body: "Moovez was where I learned the mechanics of growth: messaging, audience, channel, response, and iteration. The work supported early acquisition activity across email, outbound, organic social, paid campaigns, search, SEO, and AI-assisted content preparation. ChatGPT helped draft captions and prepare content schedules, while the broader solution created a practical campaign operating loop where channel activity could be launched, measured, compared, and improved over time.",
             metrics: [
               ["10.53%", "email campaign reply rate"],
@@ -408,7 +408,7 @@
           },
           logic: {
             label: "Logic",
-            headline: "Campaign channels needed consistent execution and measurement.",
+            headline: "Campaign channels needed consistent execution and comparable performance metrics.",
             body: "Moovez needed practical digital marketing support across organic social, newsletters, outbound email, Facebook campaigns, Google Ads, SEO, ChatGPT-assisted captions, content schedules, and sales activity. The operating problem was keeping channel execution measurable and connected to response data.",
             bullets: [
               "Campaigns needed to stay organized across multiple channels.",
@@ -447,7 +447,7 @@
       university: {
         kicker: "University education",
         title: "Bachelor of Commerce - Economics, Econometrics & Programming",
-        summary: "A quantitative business foundation for pricing systems, forecasting, automation, analytics products, and AI-enabled decision workflows.",
+        summary: "A quantitative business foundation for understanding performance, testing assumptions, and making decisions about pricing, forecasts, markets, and operations.",
         abilities: "Regression, time series, panel data, statistical modelling, pricing strategy, forecasting, optimization, and decision-making under uncertainty.",
         logo: "../../JMSB.png",
         logoAlt: "John Molson School of Business logo",
@@ -459,7 +459,7 @@
           },
           {
             title: "Economic Data Analysis",
-            summary: "Data work for economic and business questions, from retrieval and cleaning to interpretation.",
+            summary: "Data work for economic and business questions, from retrieval and cleaning to interpretation and decision support.",
             courses: ["Economic data analysis", "Statistical software", "Spreadsheet modelling", "Database work"]
           },
           {
@@ -477,14 +477,14 @@
       certifications: {
         kicker: "Professional certificates",
         title: "Coursera / IBM Professional Certificates",
-        summary: "Applied technical training across data science, full-stack software development, data engineering, AI application development, and RevOps workflows.",
-        abilities: "Python workflows, SQL, databases, ETL pipelines, dashboards, machine learning, React, Flask, Docker, cloud-native development, prompt engineering, and AI product workflows.",
+        summary: "Applied technical training in working with data and building the systems around it: SQL, Python, data pipelines, dashboards, application development, and applied AI.",
+        abilities: "SQL, Python, databases, ETL pipelines, data visualization, dashboards, statistical modelling, and machine learning, supported by application development and applied AI training.",
         logo: "../../Tools/Coursera.png",
         logoAlt: "Coursera logo",
         cards: [
           {
             title: "IBM Data Engineering",
-            summary: "Practical data infrastructure training across databases, ETL, warehousing, and dashboard-ready pipelines.",
+            summary: "Practical data infrastructure training across SQL databases, ETL, warehousing, and dashboard-ready pipelines.",
             certificateUrl: "https://www.coursera.org/account/accomplishments/professional-cert/V7YTE7PSZM2X",
             courses: ["Python for data engineering", "SQL and relational databases", "ETL and data pipelines", "Warehousing and BI dashboards"]
           },

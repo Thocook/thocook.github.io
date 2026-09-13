@@ -5062,6 +5062,15 @@
         0 14px 26px rgba(7,29,43,.18);
     }
 
+    /* Six equal year columns: July 2022 is 25%, July 2023 is 41.667%. */
+    .career-bar--marketing .career-node {
+      right: 40.476190%;
+    }
+
+    .career-bar--automation .career-node {
+      right: 44.047619%;
+    }
+
     .career-node--current {
       right: 14%;
       width: 15px;

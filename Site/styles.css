@@ -4893,6 +4893,11 @@
       width: 100%;
     }
 
+    .career-mobile-dates,
+    .career-mobile-project {
+      display: none;
+    }
+
     .career-chart__years {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -5531,11 +5536,169 @@
       }
 
       .career-map__card {
-        overflow-x: auto;
+        overflow: visible;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
       }
 
       .career-chart {
-        min-width: 880px;
+        min-width: 0;
+      }
+
+      .career-chart__years {
+        display: none;
+      }
+
+      .career-chart__body {
+        display: grid;
+        gap: 0;
+      }
+
+      .career-row {
+        position: relative;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
+        padding: 20px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .career-label {
+        justify-content: flex-start;
+        text-align: left;
+      }
+
+      .career-label .legend-dot {
+        display: none;
+      }
+
+      .career-mobile-dates {
+        display: none;
+      }
+
+      .career-label strong {
+        color: var(--ink);
+        font-size: 18px;
+        line-height: 1.2;
+      }
+
+      .career-label small {
+        margin-top: 3px;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.4;
+      }
+
+      .career-track {
+        height: auto;
+      }
+
+      .career-track::before,
+      .career-track::after {
+        display: none;
+      }
+
+      .career-chart .career-bar,
+      .career-chart .career-bar:hover,
+      .career-chart .career-bar.active,
+      .career-chart .career-bar:has(.career-node:hover) {
+        position: static;
+        display: grid;
+        gap: 6px;
+        width: auto;
+        height: auto;
+        transform: none;
+        background: none;
+        box-shadow: none;
+        filter: none;
+        cursor: default;
+      }
+
+      .career-chart .career-node {
+        position: static;
+        display: grid;
+        grid-template-columns: 78px minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 5px 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        color: var(--ink);
+        transform: none;
+        box-shadow: none;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: none;
+      }
+
+      .career-chart .career-node::before {
+        content: attr(data-mobile-year);
+        color: var(--soft);
+        font-size: 11px;
+        font-weight: 750;
+      }
+
+      .career-mobile-project {
+        display: block;
+        font-size: 13px;
+        font-weight: 750;
+        line-height: 1.4;
+      }
+
+      .career-chart .career-node::after {
+        content: "\2193";
+        flex-shrink: 0;
+        color: var(--sage);
+        font-size: 16px;
+        font-weight: 800;
+      }
+
+      .career-chart .career-node.active {
+        color: var(--sage);
+        background: transparent;
+      }
+
+      .career-chart .career-node:hover:not(.active) {
+        color: var(--ink);
+        background: transparent;
+        box-shadow: none;
+        transform: none;
+      }
+
+      .career-chart .career-node:hover,
+      .career-chart .career-node.active,
+      .career-chart .career-node:focus,
+      .career-chart .career-node:focus-visible {
+        outline: none;
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+        transform: none;
+      }
+
+      .tooltip {
+        display: none !important;
+      }
+
+      .project-page-intro__heading {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+      }
+
+      .project-page-intro__heading > span {
+        grid-row: 1;
+        text-align: left;
+        white-space: normal;
+      }
+
+      .showcase-tabs {
+        scroll-margin-top: 76px;
       }
 
       .cert-panel .education-top,

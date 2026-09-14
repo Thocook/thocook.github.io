@@ -87,6 +87,10 @@ let state = {
 
     function showTooltip(event, text) {
       const tooltip = document.getElementById("tooltip");
+      if (window.matchMedia("(max-width: 900px)").matches) {
+        tooltip.style.display = "none";
+        return;
+      }
       tooltip.style.display = "block";
       tooltip.textContent = text;
       tooltip.style.left = event.pageX + 14 + "px";
@@ -98,6 +102,26 @@ let state = {
     }
 
     function bindCareerMap() {
+      const scrollToProjectOverview = () => {
+        const target = window.matchMedia("(max-width: 900px)").matches
+          ? document.getElementById("showcase-tabs")
+          : document.getElementById("projects");
+        target?.scrollIntoView({ behavior: "smooth", block: "start" });
+      };
+      const formatCareerMonth = value => {
+        return value.split("-")[0];
+      };
+      document.querySelectorAll(".career-row").forEach(row => {
+        const job = jobs.find(item => item.id === row.querySelector(".career-bar")?.dataset.jobId);
+        if (!job) return;
+        const dates = document.createElement("span");
+        dates.className = "career-mobile-dates";
+        const startYear = formatCareerMonth(job.start);
+        const endYear = formatCareerMonth(job.end);
+        dates.textContent = startYear === endYear ? startYear : `${startYear}–${endYear}`;
+        row.querySelector(".career-label > div").prepend(dates);
+      });
+
       document.querySelectorAll(".career-bar[data-job-id]").forEach(bar => {
         bar.addEventListener("click", event => {
           if (event.target.closest(".career-node")) return;
@@ -107,7 +131,7 @@ let state = {
             state.openTheme = project.themes[0];
             state.tab = "overview";
             renderAll();
-            document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+            scrollToProjectOverview();
           }
         });
       });
@@ -119,13 +143,18 @@ let state = {
         node.setAttribute("role", "button");
         node.setAttribute("tabindex", "0");
         node.setAttribute("aria-label", `Open ${project.title}`);
+        node.dataset.mobileYear = project.year;
+        const label = document.createElement("span");
+        label.className = "career-mobile-project";
+        label.textContent = project.title;
+        node.appendChild(label);
 
         const openProject = () => {
           state.projectId = project.id;
           state.openTheme = project.themes[0];
           state.tab = "overview";
           renderAll();
-          document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+          scrollToProjectOverview();
         };
 
         node.addEventListener("click", event => {
@@ -331,6 +360,7 @@ let state = {
       const project = projects.find(p => p.id === state.projectId) || projects[0];
       const tab = project.tabs[state.tab] || project.tabs.overview;
       const nodes = project.visual || ["DATA", "OPS", "BI"];
+
 
       const tabs = document.getElementById("showcase-tabs");
       tabs.innerHTML = "";

@@ -5539,6 +5539,7 @@
       }
 
       .cert-panel .education-top,
+      .course-grid,
       .cert-panel .course-grid {
         grid-template-columns: 1fr;
       }

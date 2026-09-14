@@ -5062,6 +5062,15 @@
         0 14px 26px rgba(7,29,43,.18);
     }
 
+    /* Six equal year columns: July 2022 is 25%, July 2023 is 41.667%. */
+    .career-bar--marketing .career-node {
+      right: 40.476190%;
+    }
+
+    .career-bar--automation .career-node {
+      right: 44.047619%;
+    }
+
     .career-node--current {
       right: 14%;
       width: 15px;
@@ -5597,6 +5606,44 @@
         width: 36px;
         height: 36px;
         font-size: 24px;
+      }
+    }
+
+    .sticky-contact-cta {
+      position: fixed;
+      right: clamp(14px, 2vw, 28px);
+      bottom: clamp(14px, 2vw, 28px);
+      z-index: 100;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 11px 15px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      border-radius: 999px;
+      background: var(--ink);
+      color: var(--white);
+      box-shadow: 0 10px 28px rgba(7, 29, 43, .18);
+      font-size: 13px;
+      font-weight: 800;
+      line-height: 1;
+      text-decoration: none;
+      transition: transform .16s ease, box-shadow .16s ease, background-color .16s ease;
+    }
+
+    .sticky-contact-cta:hover,
+    .sticky-contact-cta:focus-visible {
+      outline: 0;
+      background: var(--walnut);
+      box-shadow: 0 14px 32px rgba(7, 29, 43, .24);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 560px) {
+      .sticky-contact-cta {
+        right: 12px;
+        bottom: 12px;
+        padding: 10px 13px;
+        font-size: 12px;
       }
     }
 

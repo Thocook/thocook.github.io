@@ -5509,9 +5509,16 @@
       }
 
       .section-icon {
+        grid-row: 1;
         justify-self: start;
         width: 54px;
         height: 54px;
+      }
+
+      .experience-badge {
+        align-self: flex-start;
+        height: 86px;
+        max-height: 86px;
       }
 
       .career-map__card {

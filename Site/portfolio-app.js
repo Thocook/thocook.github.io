@@ -243,6 +243,11 @@ let state = {
       let suppressClickUntil = 0;
 
       track.addEventListener("pointerdown", event => {
+        // Touch uses native scrolling and CSS snapping; mouse dragging stays custom.
+        if (event.pointerType === "touch") {
+          window.cancelAnimationFrame(momentumFrame);
+          return;
+        }
         if (event.button !== 0) return;
         if (event.target.closest("a, button")) return;
         window.cancelAnimationFrame(momentumFrame);

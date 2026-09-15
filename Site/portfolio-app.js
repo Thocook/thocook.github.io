@@ -1535,6 +1535,35 @@ let state = {
       renderShowcase();
     }
 
+    function bindMobileNavigation() {
+      const toggle = document.querySelector(".nav-toggle");
+      const links = document.getElementById("main-navigation");
+      const mobile = window.matchMedia("(max-width: 820px)");
+      const setOpen = open => {
+        links.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", String(open));
+        toggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+      };
+      toggle.addEventListener("click", () => setOpen(toggle.getAttribute("aria-expanded") !== "true"));
+      links.addEventListener("click", event => {
+        if (event.target.closest("a")) setOpen(false);
+      });
+      document.addEventListener("click", event => {
+        if (!event.target.closest(".site-nav")) setOpen(false);
+      });
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+          setOpen(false);
+          toggle.focus();
+        }
+      });
+      document.querySelector(".site-nav").addEventListener("focusout", event => {
+        if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+      });
+      mobile.addEventListener("change", () => setOpen(false));
+    }
+
+    bindMobileNavigation();
     initTimeline();
     bindCareerMap();
     bindOverviewProjectLinks();

@@ -680,6 +680,7 @@ let state = {
     function architectureToolRowsHtml(rows = []) {
       return `
         <div class="architecture-tool-rows" aria-label="How each tool was used">
+          <h3 class="architecture-tools-title">Tools used in this project</h3>
           ${rows.map(([tool, text]) => `
             <article class="architecture-tool-row">
               ${techChipHtml(tool)}

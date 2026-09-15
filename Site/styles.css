@@ -3784,6 +3784,14 @@
       gap: 10px;
     }
 
+    .architecture-tool-rows .architecture-tools-title {
+      margin: 0 0 4px;
+      color: var(--ink);
+      font-size: clamp(20px, 2vw, 26px);
+      line-height: 1.2;
+      letter-spacing: -.03em;
+    }
+
     .architecture-tool-row {
       display: grid;
       grid-template-columns: minmax(170px, 230px) minmax(0, 1fr);

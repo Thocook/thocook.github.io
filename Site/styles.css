@@ -5703,6 +5703,18 @@
         scroll-margin-top: 76px;
       }
 
+      .architecture-flow-step,
+      .architecture-tool-row,
+      .trading-architecture-column,
+      .trading-strategy-panel.architecture-inline {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .architecture-flow-step,
+      .trading-architecture-column {
+        gap: 12px;
+      }
+
       .cert-panel .education-top,
       .course-grid,
       .cert-panel .course-grid {

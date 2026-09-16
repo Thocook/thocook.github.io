@@ -5780,6 +5780,33 @@
         grid-column: auto;
       }
 
+      .overview-project-card .overview-card-metrics {
+        gap: 6px;
+      }
+
+      .overview-project-card .overview-card-metric {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        padding: 8px 10px;
+      }
+
+      .overview-project-card .overview-card-metric strong {
+        flex-shrink: 0;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -.03em;
+      }
+
+      .overview-project-card .overview-card-metric span {
+        font-size: 11px;
+        line-height: 1.35;
+      }
+
+      .overview-project-card .overview-card-metric span::before {
+        content: "– ";
+      }
+
       .overview-project-card,
       .overview-project-card.focus-card {
         min-height: auto;
@@ -5787,9 +5814,7 @@
       }
 
       .overview-carousel-button {
-        width: 36px;
-        height: 36px;
-        font-size: 24px;
+        display: none;
       }
     }
 

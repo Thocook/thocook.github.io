@@ -233,6 +233,32 @@ let state = {
       document.querySelector(".overview-carousel-button.prev")?.addEventListener("click", () => scrollToCard(-1));
       document.querySelector(".overview-carousel-button.next")?.addEventListener("click", () => scrollToCard(1));
 
+      const dots = document.createElement("div");
+      dots.className = "overview-carousel-dots";
+      dots.setAttribute("role", "group");
+      dots.setAttribute("aria-label", "Choose showcase project");
+      const dotButtons = cardsByPosition().map(card => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.setAttribute("aria-label", `Show ${card.querySelector("h3").textContent}`);
+        button.addEventListener("click", () => {
+          window.cancelAnimationFrame(momentumFrame);
+          snapToCard(card);
+        });
+        dots.appendChild(button);
+        return { button, card };
+      });
+      track.before(dots);
+      const updateDots = () => {
+        const current = nearestCard();
+        dotButtons.forEach(({ button, card }) => {
+          button.setAttribute("aria-current", String(card === current));
+        });
+      };
+      track.addEventListener("scroll", updateDots, { passive: true });
+      window.addEventListener("resize", updateDots);
+      updateDots();
+
       let isDragging = false;
       let didDrag = false;
       let dragStartX = 0;

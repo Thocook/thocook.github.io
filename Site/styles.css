@@ -4516,6 +4516,10 @@
     .overview-project-card[data-overview-project="trellis-revops"] { order: 4; }
     .overview-project-card[data-overview-project="moovez-growth"] { order: 5; }
 
+    .overview-carousel-dots {
+      display: none;
+    }
+
     .overview-carousel-button {
       position: absolute;
       z-index: 5;
@@ -5815,6 +5819,42 @@
 
       .overview-carousel-button {
         display: none;
+      }
+
+      .overview-carousel-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -8px 0 2px;
+      }
+
+      .overview-carousel-dots button {
+        display: grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+      }
+
+      .overview-carousel-dots button::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: rgba(7, 29, 43, .2);
+      }
+
+      .overview-carousel-dots button[aria-current="true"]::before {
+        background: rgba(7, 29, 43, .65);
+      }
+
+      .overview-carousel-dots button:focus-visible {
+        outline: 2px solid var(--sage);
+        outline-offset: -3px;
+        border-radius: 6px;
       }
     }
 
